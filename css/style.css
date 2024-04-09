@@ -1,0 +1,21 @@
+.row {
+  display: flex;
+}
+
+.col {
+  flex: 1;
+  padding: 10px;
+}
+.title{
+  
+  color: orange;
+}
+.price {
+  display: flex;
+  text-align:center;
+  color:black;
+  position: absolute;
+  margin-left: 130px;
+  font-family: futuraBook;
+  font-size: 2rem;
+}
