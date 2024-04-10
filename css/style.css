@@ -8,14 +8,50 @@
 }
 .title{
   
-  color: orange;
+  color: white;
 }
-.price {
-  display: flex;
-  text-align:center;
-  color:black;
+
+.button--primary {
+  color:white;
+  background-color: orange;
+  
+}
+.modal {
+ 
+  position: fixed; /* Фиксированное позиционирование */
+  z-index: 9999; /* Большой индекс слоя, чтобы модальное окно было поверх всего остального контента */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Добавляем прокрутку, если контент выходит за пределы окна */
+  background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон */
+}
+.modal__dialog {
+  background-color: black; /* Цвет фона модального окна */
+  position: absolute; /* Абсолютное позиционирование */
+  top: 50%; /* Располагаем верхний край модального окна посередине вертикали */
+  left: 50%; /* Располагаем левый край модального окна посередине горизонтали */
+  transform: translate(-50%, -50%); /* Переносим модальное окно на половину своей ширины и высоты влево и вверх соответственно */
+  padding: 2.357rem 3.5rem 1.928rem; /* Отступы внутри модального окна */
+  border: 1px solid #888888; /* Граница модального окна */
+  border-radius: 5px; /* Скругляем углы модального окна */
+  max-width: 80%; /* Максимальная ширина модального окна */
+}
+.modal__close {
   position: absolute;
-  margin-left: 130px;
-  font-family: futuraBook;
-  font-size: 2rem;
+  right: 0;
+  top: 0;
+  width: 28px;
+  height: 28px;
+  background: black url('../img/close.svg') no-repeat center ;
+}
+.title {
+font-size: 1.357rem;
+text-align: center;
+margin-bottom: 2.428;
+}
+.modal__form {
+  display: flex;
+  flex-direction: column;
 }

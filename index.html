@@ -8,6 +8,7 @@
  <link rel="preconnect" href="https://fonts.googleapis.com">
  <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ 
 </head>
 <body>
   <section class="section control">
@@ -46,7 +47,7 @@
           <li class="card__item">Замена турникета</li>
           <li class="card__item">Украение двери</li>
         </ul>
-        <strong class="price">от 1800 р за м<sup>2</sup></strong>
+    
       </div>
     </div>
   </div>
@@ -65,6 +66,27 @@
           <li class="card__item">Украение двери</li>
         </ul>
       </div>
+
+      <div class="modal">
+        <div class="modal__dialog">
+           <button class="modal__close"></button>
+           <h3 class="modal__title">Оставьте заявку и наш менеджер свяжется с вами</h3>
+           <form action="#" class="form modal__form">
+            <label for="user-name" class="label form__label">Имя</label>
+            <input type="text" class="input form__input" id="user-name">
+            <label for="user-phone" class="label form__label">Телефон</label>
+            <input type="tel" class="input form__input" id="user-phone">
+            <label for="user-email" class="label form__label">Email</label>
+            <input type="email" class="input form__input" id="user-email">
+            
+            <div class="policy">
+            <input type="checkbox" name="policy-checkbox" id="policy-checkbox">
+            <label for="policy-checkbox">Я согласен с обработкой данных</label> 
+            <button class="button button--primary modal__button">Отправить заявку</button>
+            <!-- policy -->
+          </form>
+
+            <!-- form modal form -->
     </div>
   </div>
 </div>
