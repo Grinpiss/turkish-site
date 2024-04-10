@@ -13,11 +13,24 @@
 
 .button--primary {
   color:white;
-  background-color: orange;
+  background-color: rgb(236, 176, 9);
+  align-self: flex-end;
+  font-size: 30px; /* Размер текста кнопки */
+    padding: 10px 20px; /* Поля вокруг текста кнопки */
+    
   
 }
+.cotacts__button--outline {
+  color:white;
+  background-color: rgb(236, 176, 9);
+  align-self: f;
+  font-size: 30px; /* Размер текста кнопки */
+    padding: 10px 20px; /* Поля вокруг текста кнопки */
+    
+}
 .modal {
- 
+  opacity: 0;
+  visibility: hidden;
   position: fixed; /* Фиксированное позиционирование */
   z-index: 9999; /* Большой индекс слоя, чтобы модальное окно было поверх всего остального контента */
   left: 0;
@@ -54,4 +67,7 @@ margin-bottom: 2.428;
 .modal__form {
   display: flex;
   flex-direction: column;
+}
+.modal__input {
+  margin-bottom: 3.428rem;
 }
