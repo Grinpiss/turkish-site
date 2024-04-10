@@ -21,9 +21,11 @@
   
 }
 .cotacts__button--outline {
+  opacity: 0;
+  visibility: hidden;
   color:white;
   background-color: rgb(236, 176, 9);
-  align-self: f;
+  align-self: flex-end;
   font-size: 30px; /* Размер текста кнопки */
     padding: 10px 20px; /* Поля вокруг текста кнопки */
     
@@ -58,9 +60,14 @@
   width: 28px;
   height: 28px;
   background: black url('../img/close.svg') no-repeat center ;
+
+}
+.modal--visible {
+opacity: 1;
+visibility: visible;
 }
 .title {
-font-size: 1.357rem;
+  font-size: 1.357rem;
 text-align: center;
 margin-bottom: 2.428;
 }
