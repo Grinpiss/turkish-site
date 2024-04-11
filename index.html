@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
  <link rel= "stylesheet" href="css/style.css">
  <link rel="preconnect" href="https://fonts.googleapis.com">
  <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
@@ -11,12 +12,61 @@
  
 </head>
 <body>
+  <div class="col-50"></div>
+  <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+    <div class="swiper-slide__text">
+    <h3 class="swiper-slide__text">Город:</h3>
+    <span class="swiper-slide__value">Молдовия</span>
+    </div>
+    <div class="swiper-slide">
+      <div class="swiper-slide__text">
+      <h3 class="swiper-slide__text">Площадь:</h3>
+      <span class="swiper-slide__value">23 </span>
+      </div>
+      <div class="swiper-slide">
+        <div class="swiper-slide__text">
+        <h3 class="swiper-slide__text">Срок ремонта:</h3>
+        <span class="swiper-slide__value">3 дня</span>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-slide__text">
+          <h3 class="swiper-slide__text">Стоистоть:</h3>
+          <span class="swiper-slide__value">По запросу</span>
+          </div>
+    <div class="swiper-slide">Slide 2</div>
+    <div class="swiper-slide">Slide 3</div>
+    
+  </div>
+  <div class="row col-50"></div>
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+     
+      
+      
+  <!-- If we need pagination -->
+  
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-pagination"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
   <section class="section control">
   <div class="container">
   <div class="section title">
   <h2 class="section-title__heading"><center>ВИДЫ РЕМОНТА</center></h2>
  <div class="row">
-  <div class="col">
+  <div class="col-30">
     
     <div class="card">
       <img src="img/image 3.svg" alt="" class="card__image">
@@ -35,7 +85,7 @@
       </div>
     </div>
   </div>
-  <div class="col">
+  <div class="col-30">
     <div class="card">
       <img src="img/image 3 (1).svg" alt="" class="card__image">
       <div class= "card__text">
@@ -55,7 +105,7 @@
   </div>
     
 
-  <div class="col">
+  <div class="col-30">
     <div class="card">
       <img src="img/image.svg" alt="" class="card__image">
       <div class= "card__text">
@@ -97,18 +147,26 @@
           </form>
           </div>
             <!-- form modal form -->
+          </section>
           </div>
+          <section class="section section--dark projects">
+          <div class="container">
+          <div class="col-50">
+          <div class="section-title">
+          <h2 class="section-title__heading">Завершенные проекты</h2>
+          <p class="section-title__text">Мы предаставители стройкомпании хайтекс оставьте заявку и наш менеджер свяжется 
+          с вами в течении полугода или больше а может и никогда да да джа </p>
+          </div>
+            <!--  col-50-->
+         
+          
+          <!--  col-50-->
+          </div>
+
+          </section>
    
- 
-
-
-
-
-
-
-
-</section>
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>

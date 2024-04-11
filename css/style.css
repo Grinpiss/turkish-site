@@ -2,14 +2,24 @@
   display: flex;
 }
 
-.col {
-  flex: 1;
-  padding: 10px;
+.col-30 {
+  flex-basis: 30% ;
+  
+}
+.col-50 {
+width: 50% ;
+
 }
 .title{
   
   color: #000;
 }
+.section-title__text {
+ font-size: 1.28rem;
+ line-height: 2.07rem;
+ max-width: 31.57rem;
+}
+
 
 .button {
   
@@ -17,7 +27,7 @@
   background-color: rgb(236, 176, 9);
   align-self: flex-end;
   font-size: 30px; /* Размер текста кнопки */
-    padding: 10px 20px; /* Поля вокруг текста кнопки */
+  padding: 10px 20px; /* Поля вокруг текста кнопки */
     
 }
 
