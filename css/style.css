@@ -72,6 +72,18 @@ width: 50% ;
 opacity: 1;
 visibility: visible;
 }
+.modal label {
+  color:white;
+  background-color:#000;
+}
+.modal__title {
+  color:white;
+  background-color:#000;
+}
+.modal__text {
+ color:white;
+ background-color:#000;
+}
 .title {
   font-size: 1.357rem;
 text-align: center;
@@ -83,4 +95,6 @@ margin-bottom: 2.428;
 }
 .modal__input {
   margin-bottom: 3.428rem;
+  color:white;
+  background-color:#000;
 }
