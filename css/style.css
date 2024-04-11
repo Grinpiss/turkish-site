@@ -8,7 +8,7 @@
 }
 .title{
   
-  color: white;
+  color: #000;
 }
 
 .button {
@@ -19,17 +19,8 @@
   font-size: 30px; /* Размер текста кнопки */
     padding: 10px 20px; /* Поля вокруг текста кнопки */
     
-  
 }
-.cotacts button {
-  
-  color:white;
-  background-color: rgb(236, 176, 9);
-  align-self: flex-end;
-  font-size: 30px; /* Размер текста кнопки */
-    padding: 10px 20px; /* Поля вокруг текста кнопки */
-    
-}
+
 .modal {
   opacity: 0;
   visibility: hidden;
@@ -55,7 +46,7 @@
 }
 .modal--visible {
   opacity: 1;
-  visibility: v;
+  visibility: visible;
 }
 .modal__close {
   

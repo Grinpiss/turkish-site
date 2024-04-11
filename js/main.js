@@ -9,6 +9,7 @@ $(document).ready(function () {
   });
   closelBtn.on('click', function () {
     modal.toggleClass('modal--visible');
-  });
-});
+  }); 
+    
+}); 
 
