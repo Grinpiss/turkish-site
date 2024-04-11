@@ -11,7 +11,8 @@
   color: white;
 }
 
-.button--primary {
+.button {
+  
   color:white;
   background-color: rgb(236, 176, 9);
   align-self: flex-end;
@@ -20,9 +21,8 @@
     
   
 }
-.cotacts__button--outline {
-  opacity: 0;
-  visibility: hidden;
+.cotacts button {
+  
   color:white;
   background-color: rgb(236, 176, 9);
   align-self: flex-end;
@@ -53,7 +53,12 @@
   border-radius: 5px; /* Скругляем углы модального окна */
   max-width: 80%; /* Максимальная ширина модального окна */
 }
+.modal--visible {
+  opacity: 1;
+  visibility: v;
+}
 .modal__close {
+  
   position: absolute;
   right: 0;
   top: 0;
