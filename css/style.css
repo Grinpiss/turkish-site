@@ -1,15 +1,16 @@
 .row {
   display: flex;
 }
+.col-50 {
+  width: 50%;
+}
 
 .col-30 {
   flex-basis: 30% ;
   
 }
-.col-50 {
-width: 50% ;
 
-}
+
 .title{
   
   color: #000;
@@ -87,7 +88,7 @@ visibility: visible;
 .title {
   font-size: 1.357rem;
 text-align: center;
-margin-bottom: 2.428;
+margin-bottom: 2.428rem;
 }
 .modal__form {
   display: flex;
@@ -97,4 +98,22 @@ margin-bottom: 2.428;
   margin-bottom: 3.428rem;
   color:white;
   background-color:#000;
+}
+
+.swiper-slide {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.swiper-slide__text {
+  flex-basis: 50%;
+}
+.control__video {
+  max-width: 58.357;
+  max-height: 31rem;
+  background-color: url('../img/Mask\ Group\ \(1\).jpg') center no-repeat;
+
+}
+.swiper-image {
+margin-top: 50;
 }
