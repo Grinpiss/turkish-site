@@ -1,12 +1,13 @@
 .row {
   display: flex;
+  flex-wrap: wrap;
 }
 .col-50 {
   width: 50%;
 }
 
 .col-30 {
-  flex-basis: 30% ;
+  flex-basis: 30%;
   
 }
 
@@ -105,15 +106,16 @@ margin-bottom: 2.428rem;
   flex-wrap: wrap;
   
 }
-.swiper-slide__text {
-  flex-basis: 50%;
-}
+
 .control__video {
   max-width: 58.357;
   max-height: 31rem;
   background-color: url('../img/Mask\ Group\ \(1\).jpg') center no-repeat;
 
 }
+
 .swiper-image {
-margin-top: 50;
+  margin-left: auto !important; /* Устанавливаем автоматический отступ слева */
+  display: block; /* Убеждаемся, что элемент отображается как блочный */
+  margin-right: 0; /* Убираем правый отступ, если он задан */
 }
