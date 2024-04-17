@@ -125,12 +125,33 @@ margin-bottom: 2.428rem;
  
 }
 .control__video {
+  padding-bottom: 30rem;
   position: relative;
-  
-
-
-  margin: auto;
+   margin: auto;
   max-width: 58.357rem;
   max-height: 31rem;
-  
+}
+.footer-wrap {
+  margin-top: -100rem;
+   color: orange;
+  background-color:#888888;
+  max-width: 53.07rem;
+  margin: auto;
+  padding: 2.5rem;
+}
+.footer__title {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 1.428rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.input-group {
+  padding-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+.policy {
+  padding-bottom: 1.5rem;
 }

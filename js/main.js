@@ -1,24 +1,25 @@
 $(document).ready(function () {
-  var modal = $('.modal'),
-      modalBtn = $('[data-toggle=modal]'),
-      closelBtn = $('.modal__close');
+  var modal = $('.modal');
+  var modalBtn = $('[data-toggle="modal"]');
+  var closeBtn = $('.modal__close');
+
   modalBtn.on('click', function () {
     modal.toggleClass('modal--visible');
   });
-  closelBtn.on('click', function () {
-    modal.toggleClass('modal--visible');
-  }); 
 
-  var mySwiper = new Swiper ('.swiper-container', {
+  closeBtn.on('click', function () {
+    modal.toggleClass('modal--visible');
+  });
+
+  var mySwiper = new Swiper('.swiper-container', {
     loop: true,
     pagination: {
       el: '.swiper-pagination',
-      type: 'bullets',
+      type: 'bullets'
     },
     navigation: {
       nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
+      prevEl: '.swiper-button-prev'
+    }
   });
 });
-
