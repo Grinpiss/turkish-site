@@ -3,7 +3,7 @@
   flex-wrap: wrap;
 }
 .col-50 {
-  width: 50%;
+  flex-basis: 50%;
 }
 
 .col-30 {
@@ -118,4 +118,8 @@ margin-bottom: 2.428rem;
   margin-left: auto !important; /* Устанавливаем автоматический отступ слева */
   display: block; /* Убеждаемся, что элемент отображается как блочный */
   margin-right: 0; /* Убираем правый отступ, если он задан */
+  
+}
+.swiper-slide__text {
+  margin-right: 30px;
 }
