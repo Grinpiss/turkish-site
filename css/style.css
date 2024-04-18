@@ -32,18 +32,6 @@
   padding: 10px 20px; /* Поля вокруг текста кнопки */
     
 }
-.button--footer {
-  color:white;
-  background-color: rgb(236, 176, 9);
-  align-self: flex-end;
-  font-size: 34px; /* Размер текста кнопки */
-  padding: 20px 28px; /* Поля вокруг текста кнопки */
-  margin-top: 2rem;
-  justify-content: center;
-  margin-left: 37%;
-
-    
-}
 
 .modal {
   opacity: 0;
@@ -122,9 +110,11 @@ margin-bottom: 2.428rem;
 
 
 .swiper-image {
+  margin-top: -320px; /* Примерное отрицательное значение для поднятия изображения вверх */
   margin-left: auto !important; /* Устанавливаем автоматический отступ слева */
   display: block; /* Убеждаемся, что элемент отображается как блочный */
   margin-right: 0; /* Убираем правый отступ, если он задан */
+  margin-bottom: 0px;
   
 }
 .swiper-slide__text {
@@ -147,7 +137,6 @@ margin-bottom: 2.428rem;
   margin-top: -100rem;
    color: orange;
   background-color:#888888;
-  max-width: 53.07rem;
   margin: auto;
   padding: 2.5rem;
 }
@@ -167,7 +156,7 @@ margin-bottom: 2.428rem;
 .policy {
   padding-top: 2rem;
   justify-content: center;
-  margin-left: 36%;
+  margin-left: 40%;
 }
 .header {
   background-color: black;
@@ -218,6 +207,17 @@ margin-right: 20px;
 background-color:orangered;
 color: antiquewhite;
 }
+.button--footer {
+  color:white;
+  background-color: rgb(236, 176, 9);
+  align-self: flex-end;
+  font-size: 34px; /* Размер текста кнопки */
+  padding: 20px 28px; /* Поля вокруг текста кнопки */
+  margin-top: 2rem;
+  justify-content: center;
+  margin-left: 41%;
+}
+
 
 
 .hero__text{
