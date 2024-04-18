@@ -134,11 +134,10 @@ margin-bottom: 2.428rem;
   max-height: 31rem;
 }
 .footer-wrap {
-  margin-top: -100rem;
-   color: orange;
+  margin-top: 480px;
+  color: orange;
   background-color:#888888;
-  margin: auto;
-  padding-top: 20rem;
+  
 }
 .footer__title {
   text-transform: uppercase;
@@ -256,6 +255,7 @@ color:orange;
   color: white;
 }
 .map__footer{
-  margin-bottom: 8rem;
-  max-height: 400px;
+  margin-bottom: 9rem;
+  max-height: 0px;
+  margin-top: 10px;
 }
