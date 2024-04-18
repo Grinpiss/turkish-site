@@ -138,7 +138,7 @@ margin-bottom: 2.428rem;
    color: orange;
   background-color:#888888;
   margin: auto;
-  padding: 2.5rem;
+  padding-top: 20rem;
 }
 .footer__title {
   text-transform: uppercase;
@@ -216,7 +216,7 @@ color: antiquewhite;
   margin-top: 2rem;
   justify-content: center;
   margin-left: 41%;
-}g
+}
 .policy_modal{
   text-align: center; /* Центрируем текст по горизонтали */
   position: absolute; /* Позиционируем текст абсолютно */
@@ -254,4 +254,8 @@ color:orange;
   background: url("../img/hero.jpg") no-repeat center / cover;
   height: 100vh;
   color: white;
+}
+.map__footer{
+  margin-bottom: 8rem;
+  max-height: 400px;
 }
