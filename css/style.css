@@ -216,7 +216,15 @@ color: antiquewhite;
   margin-top: 2rem;
   justify-content: center;
   margin-left: 41%;
+}g
+.policy_modal{
+  text-align: center; /* Центрируем текст по горизонтали */
+  position: absolute; /* Позиционируем текст абсолютно */
+  bottom: 0; /* Помещаем текст внизу контейнера */
+  left: 50%; /* Размещаем текст по центру по горизонтали */
+  transform: translateX(-50%); /* Корректируем позицию текста на половину его ширины */
 }
+
 
 
 
