@@ -1,5 +1,5 @@
 {
-  "name": "book-2",
+  "name": "turkish site",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,10 +10,12 @@
   "license": "ISC",
   "devDependencies": {
     "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
     "gulp-sass": "^5.1.0"
   },
   "dependencies": {
     "browser-sync": "^3.0.2",
+    "del": "^6.1.1",
     "node-sass": "^9.0.0"
   }
 }

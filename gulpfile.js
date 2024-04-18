@@ -1,31 +1,31 @@
-const {src, dest, watch} = require('gulp');
+const { src, dest, watch } = require('gulp');
 const browserSync = require('browser-sync').create();
 const sass = require('gulp-sass');
+const autoprefixer = require('gulp-autoprefixer'); 
 
-
-
-// Таск для отслеживания изменений в файлах Sass
- function bs() {
-  // Инициализируем BrowserSync
+function bs() {
+  serveSass();
   browserSync.init({
     server: {
-      baseDir: "./" // Папка, которую мы хотим сервером
+      baseDir: "./" 
     }
   });
-  watch("*./*.html*").on('change', browserSync.reload);
+  watch("./*.html*").on('change', browserSync.reload);
   watch("./sass/**/*.sass", serveSass);
   watch("./sass/**/*.scss", serveSass);
-  watch("*./js/*js").on('change', browserSync.reload);
+  watch("./js/*js").on('change', browserSync.reload);
 };
-  // Таск для компиляции Sass в CSS
- function serveSass() {
-  return src("./sass/**/*.sass", "./sass/**/*scss") // Исходные файлы Sass
-      .pipe(sass()) // Компилируем Sass в CSS
-      .pipe(gulp.dest("./css")) // Сохраняем скомпилированный CSS
-      .pipe(browserSync.stream()); // Обновляем страницу при изменении CSS
+  
+function serveSass() {
+  return src("./sass/**/*.sass", "./sass/**/*.scss") 
+    .pipe(sass()) 
+    .pipe(autoprefixer({
+      cascade: false
+    }))
+    .pipe(dest("./css")) 
+    .pipe(browserSync.stream()); 
 };
 exports.serve = bs;
-  
   
   
   
